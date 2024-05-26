@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+
+            background-color: grey;
+        }
+
+        .box {
+            background-color:whitesmoke;
+            border: 2px solid black;
+            height: 300px;
+            width: 188px;
+            border-radius: 10px;
+            padding: 2px;
+        }
+
+        .image {
+            padding: px;
+            position: relative;
+            left: 4px;
+            top: 2px;
+        }
+
+        .image img {
+            width: 180px;
+            border-radius: 10px;
+            border: 2px solid rgba(54, 125, 183, 0.567);
+
+        }
+        .content {
+            padding: 10px;
+        }
+        .content h2{
+            font-size: 25px;
+            color: rgb(49, 142, 218);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 2px 5px;
+        }
+        .content p{
+            font-size: 10px;
+            color: grey;
+            color: rgb(64, 177, 197);
+        }
+        .capsules{
+            padding:  0 30px;
+        }
+        .capsules span{
+            border: 2px solid rgba(9, 94, 147, 0.61);
+            border-radius: 10px;
+            padding:  3px 3px;
+            font-size: 10px;
+            position: relative;
+            top:2px;
+            right: 5px;
+            font-family:serif;
+        }
+        .clear{
+            
+            padding:2px;
+            text-align: center;
+        }
+        .clear button{
+            padding:3px 3px ;
+            border-radius: 14px;
+            border: 2px solid rgb(47, 165, 204);
+            color: deepskyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="image"> <img width="150px"
+                src="https://media.istockphoto.com/id/814605432/photo/the-fisherman.jpg?s=1024x1024&w=is&k=20&c=N45HFseZfL7D8xUDvlrsoXo4de1LgN0E0Tq8k8exWls="
+                alt=""></div>
+                <div class="capsules">
+                    <span>NATURE</span>
+                    <SPAN>LAKE</SPAN>
+                </div>
+        <div class="content">
+            <h2>RAJAT</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque consequatur facilis asperiores necessitatibus culpa. Commodi optio porro, alias minus deserunt eius, voluptatibus nihil possimus, quia illum.</P>
+        </div>
+        <div class = "clear"><button>
+            learn more
+        </button></div>
+    </div>
+</body>
+
+</html>
